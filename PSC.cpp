@@ -11,8 +11,8 @@ bool checkLength(char passwd[]){                            //this function is u
     else return 0;
 }
 
-void checksymbols(char passwd[]){
-    int symbols = 0, numbers = 0, uppercase = 0, lowercase = 0, special = -1;
+void checksymbols(char passwd[]){                                                        
+    int symbols = 0, numbers = 0, uppercase = 0, lowercase = 0, special = -1;        //this function is used for checking the symbols of password 
     for(int i = 0; i <= strlen(passwd); i++){
         switch(passwd[i]){
 
